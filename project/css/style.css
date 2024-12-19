@@ -1,0 +1,603 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+
+  /* For tablets: */
+  .col-s-1 {
+    width: 8.33%;
+  }
+
+  .col-s-2 {
+    width: 16.66%;
+  }
+
+  .col-s-3 {
+    width: 25%;
+  }
+
+  .col-s-4 {
+    width: 33.33%;
+  }
+
+  .col-s-5 {
+    width: 41.66%;
+  }
+
+  .col-s-6 {
+    width: 50%;
+  }
+
+  .col-s-7 {
+    width: 58.33%;
+  }
+
+  .col-s-8 {
+    width: 66.66%;
+  }
+
+  .col-s-9 {
+    width: 75%;
+  }
+
+  .col-s-10 {
+    width: 83.33%;
+  }
+
+  .col-s-11 {
+    width: 91.66%;
+  }
+
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+}
+
+.nav {
+  background-color: rgb(240, 96, 180, .2);
+  color: rgb(0, 0, 0, .9);
+  padding: 7px 20px;
+  float: left;
+}
+
+.nav1 {
+  color: rgb(230, 203, 122, 1.5);
+  font-size: large;
+  float: right;
+  padding: 3px 4px;
+  cursor: pointer;
+}
+
+.nav1:hover {
+  color: brown;
+}
+
+.nav2 {
+  padding: 6px 30px;
+  font-size: 1.5em;
+}
+
+.nav3 {
+  padding: 7px 7px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.nav3:hover {
+  color: brown;
+}
+
+.nav4 {
+  background-color: tomato;
+  text-align: center;
+  padding: 6px 4px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.nav5 {
+  background-color: tomato;
+  text-align: center;
+  padding: 6px 6px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav4:hover {
+  color: brown;
+}
+
+.nav5:hover {
+  color: brown;
+}
+
+.nav6 {
+  height: 600px;
+  background:linear-gradient(rgb(0, 0, 0, .7), rgb(0, 0, 0, .7)), url(/img/Voila.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 1.5em;
+  font-weight: 800;
+  color: white;
+}
+
+h1 {
+  font-size: 2.5em;
+  padding: 8px;
+}
+
+p {
+  font-size: .8em;
+  padding: 8px;
+}
+
+button {
+  padding: 10px;
+  background-color: rgb(255, 255, 255, .2);
+  border: 2px solid white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.img1 {
+  padding: 50px 50px;
+}
+
+.con1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about {
+  background-color: rgba(209, 182, 145, 0.5);
+  font-size: 2em;
+  color: rgba(255, 99, 71, 0.734);
+}
+
+.text {
+  font-size: 4em;
+  padding-right: 50px;
+}
+
+.text2 {
+  font-size: 1.5em;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-left: 10px;
+  border-left: 2px lightcoral solid;
+}
+
+.flex {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box1 {
+  text-align: center;
+  background-color: rgba(240, 128, 128, 0.2);
+  color: rgba(240, 128, 128, 0.915);
+}
+
+.box2 {
+  text-align: center;
+  background-color: rgba(240, 128, 128, 0.2);
+  color: rgba(240, 128, 128, 0.915);
+}
+
+.pp {
+  color: black;
+  font-size: 1.5em;
+}
+
+.hed {
+  text-align: center;
+}
+
+.head {
+  background-color: lightcoral;
+  padding: 5px 5px;
+  font-size: 2em;
+  margin: 0 auto;
+}
+
+.ad {
+  font-size: 2em;
+  font-weight: 555;
+}
+
+.face {
+  padding: 20px 20px;
+}
+
+.black {
+  padding: 20px 20px;
+}
+
+.face2 {
+  text-align: center;
+  padding-top: 300px;
+  font-size: 1.3em;
+  color: rgba(255, 99, 71, 0.734);
+}
+
+.facial {
+  background-color: rgb(0, 0, 0, .2);
+}
+
+.fc button {
+  background-color: lightcoral;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.facial1 {
+  background-color: rgb(0, 0, 0, .2);
+}
+
+.facial1:hover {
+  background-color: rgb(0, 0, 0, .4);
+}
+
+.facial:hover {
+  background-color: rgb(0, 0, 0, .4);
+}
+
+.mass {
+  background-image: url(/img/massage.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 500px;
+  color: white;
+}
+
+form {
+  background-color: rgb(0, 0, 0, .2);
+  margin: 0 auto;
+  transform: translateY(150px);
+}
+
+.sec {
+  font-size: 15px;
+}
+
+.mak {
+  text-align: center;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: lightpink;
+  cursor: pointer;
+  transition: .6s;
+}
+
+.mak:hover {
+  background-color: lightcoral;
+  color: white;
+}
+
+.idk {
+  visibility: hidden;
+  font-size: 2.5em;
+}
+
+.gall {
+  padding-left: 20px;
+}
+
+.cumment {
+  text-align: center;
+  padding: 13px 13px;
+  background-color: lightcoral;
+  transform: translateY(-126px);
+  transition: .5s;
+}
+
+.icon {
+  margin-top: 45px;
+  text-align: center;
+  padding: 15px 15px;
+  background-color: black;
+  transform: translateY(-50px);
+  color: lightcoral;
+}
+
+.icons {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.gall:hover .cumment {
+  transform: translateY(-50px);
+  opacity: 0;
+}
+
+.icons:hover {
+  background-color: lightcoral;
+  color: black;
+}
+
+.rdp {
+  float: left;
+  border-radius: 50%;
+  height: 150px;
+}
+
+.mark {
+  text-align: right;
+  font-size: 4em;
+}
+
+.sp {
+  float: left;
+  font-weight: 555;
+  font-size: 1.3em;
+}
+
+.text4 {
+  font-size: 1.5em;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.sp2 {
+  float: left;
+  font-size: 2em;
+  color: lightcoral;
+}
+
+.text5 {
+  padding-top: 50px;
+  font-size: 2em;
+  padding: 20px 20px;
+  border-color: goldenrod;
+  border-left-style: double;
+}
+
+.hi {
+  padding-top: 150px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+}
+
+.foothead {
+  padding-top: 50px;
+}
+
+.footpera {
+  padding-top: 20px;
+  font-size: 2em;
+}
+
+.footpera2 {
+  font-size: 1.2em;
+  padding-top: 20px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footnum {
+  word-spacing: 2px;
+  font-size: 1.2em;
+}
+
+.footmail {
+  word-spacing: 2px;
+  font-size: 1.2em;
+}
+
+.socialicon {
+  color: lightcoral;
+  font-size: 1.2em;
+  transition: .6s;
+  border: 2px lightcoral solid;
+  padding: 20px 20px;
+}
+
+.socialicon:hover {
+  background-color: lightcoral;
+  color: black;
+  cursor: pointer;
+  border: 2px white solid;
+}
+
+.footer2 {
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  border-left: 2px grey solid;
+}
+
+.footshead {
+  padding-top: 100px;
+}
+
+.footerlist {
+  font-size: 1.2em;
+  padding: 10px 20px;
+}
+
+.footer5 {
+  padding-top: 20px;
+  padding: 20px 20px;
+}
+
+.footerem {
+  padding: 10px 10px;
+}
+
+.signup {
+  background-color: lightcoral;
+  color: white;
+  padding: 10px 10px;
+  font-size: .9em;
+  border: .5px gray solid;
+}
+
+.signup:hover {
+  cursor: pointer;
+}
+
+.last {
+  background-color: black;
+  font-size: 2em;
+  text-align: center;
+  color: white;
+  border-top: 3px white solid;
+}
+
+.last1 {
+  background-color: black;
+  font-size: 2em;
+  text-align: right;
+  color: white;
+  padding-right: 30px;
+  border-top: 3px white solid;
+}
+
+.aboutpagebg {
+  height: 600px;
+  background: linear-gradient(rgb(0, 0, 0, .7), rgb(0, 0, 0, .7)), url(/img/Spa\ relaxation\ or\ massages_.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 1.5em;
+  font-weight: 800;
+  color: white;
+}
+
+.aboutush1 {
+  font-size: 3em;
+}
+
+.aboutusp {
+  font-size: 2em;
+}
+
+.mid {
+  padding: 100px 100px;
+  float: left;
+}
+
+.mid2 {
+  padding-top: 500px;
+}
+
+.mid3 {
+  background-color: lightcoral;
+  color: lightpink;
+  font-size: 3em;
+}
+
+.mid5 {
+  font-size: 1.5em;
+}
+
+.mid4 {
+  padding: 10px 10px;
+  background-color: rgba(255, 201, 146, 0.7);
+}
+.mid9{
+  padding: 150px 100px;
+}
+.mid7{
+  font-size: 4em;
+  background-color: lightcoral;
+}
+.mid8{
+  background-color: lightpink;
+}
+.form0{
+  transform: translateY(0px);
+  background-color: lightgoldenrodyellow;
+}
+.butttt{
+  padding: 10px 10px;
+  border: none;
+  background-color: lightcoral;
+}
+.butttt:hover{
+  cursor: pointer;
+}

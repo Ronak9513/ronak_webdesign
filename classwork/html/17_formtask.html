@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <th> FIRST NAME </th>
+                <td> <input type="text" placeholder="FIRST NAME"></td>
+                <td> (MAX. 10 CHARACTER) </td>
+            </tr> 
+            <tr>
+                <th>MIDDLE NAME</th>
+                <td><input type="text" placeholder="MIDDLE NAME"></td>
+                <td> (MAX. 10 CHARACTER) </td>
+            </tr>
+            <tr>
+                <th>LAST NAME</th>
+                <td><input type="text" placeholder="LAST NAME"></td>
+                <td> (MAX. 10 CHARACTER) </td>
+            </tr>
+            <tr>
+                <th>COURSE</th>
+                <td><select name="" id="">
+                    <option value="" hidden> ABOUT YOUR COURSE</option>
+                    <option value=""> BA </option>
+                    <option value=""> MA </option>
+                </select></td>
+            </tr>
+            <tr>
+                <th rowspan="3">GENDER</th>
+                <td><input type="radio" name="GENDER" id=""> MALE </td>
+                </tr>
+            <tr>
+                <td><input type="radio" name="GENDER" id="">FEMALE</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="GENDER" id="">OTHER</td>
+            </tr>
+            <tr>
+                <th>PHONE</th>
+                <td><select name="" id="">
+                    <option value="">+91</option>
+                    <option value="">+95</option>
+                    <option value="">+58</option>
+                </select>
+                <input type="text" name="" id="" pattern="[0-9]{10}" maxlength="10" placeholder="MOBILE NUMBER"></td>
+            </tr>
+            <tr>
+                <th>ADDRESS</th>
+                <td> <textarea name="" id="" placeholder="ADDRESS"></textarea> </td>
+            </tr>
+            <tr>
+                <th>EMAIL</th>
+                <td><input type="email" name="" id="" pattern="" placeholder="EMAIL"></td>
+            </tr>
+            <tr>
+                <th>PASSWORD</th>
+                <td> <input type="password" name="" id="" pattern="[$,&,@,0-9,a-z,A-Z,I-X]" placeholder="PASSWORD"> </td>
+            </tr>
+            <tr>
+                <th>RE-ENTER PASSWORD</th>
+                <td><input type="password" name="" id="" pattern="[$,&,@,0-9,a-z,A-Z,I-X] placeholder="RE-ENTER PASSWORD"></td>
+            </tr>
+            <tr>
+                <th> <input type="submit"></th>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

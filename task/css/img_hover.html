@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main7{
+            display: flex;
+            width: 90%;
+            justify-content: space-between ;
+        }
+        .main6{
+            width: 100%;
+            margin-left: 20px;
+        }
+        .main8{
+            box-sizing: border-box;
+            height: 300px;
+            width: 48%;
+            overflow: hidden;
+        }
+        img{
+            height: 300px;
+            width: 45%;
+            position: relative;
+        }
+        p{
+            font-size: 2.5em;
+            position: absolute;
+            color: white;
+            margin-left: 400px;
+            margin-top: -200px;
+        }
+        .images{
+            transition: .6s;
+            width: 120%;
+            margin-left: -20%;
+        }
+        .brc{
+            height: 200px;
+            width: 35%;
+            letter-spacing: 10px;
+            font-size: 1.3em;
+            text-align: right;
+            color: aliceblue;
+            align-content: center;
+            border: 3px solid white;
+            position: absolute;
+            margin-top: -250px;
+            margin-left: 50px;
+            visibility: hidden;
+            transform:translate(50px,0x);
+            transition: .3s;
+        }
+        .images:hover{
+            transform: translate(50px, 0px);
+        }
+        .main8:hover .brc{
+            transform: translate(20px,0px);
+            /* transform: scale(1); */
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main6">
+    <div class="main7">
+        <div class="main8">
+            <img src="https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom1.jpg"
+                alt="image" class="images">
+                <p class="main9"> <b style="color: red;">F</b>all Ahead</p>
+                <div class="brc"> New Arrivals </div>
+        </div>
+        <div class="main8">
+            <img src="https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom2.jpg"
+                alt="image" class="images">
+                <p class="main9"> <b style="color: red;">F</b>all Ahead</p>
+                <div class="brc"> New Arrivals </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

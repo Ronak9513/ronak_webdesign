@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            margin: 50px auto;
+            border: 1px solid;
+            border-spacing: 0;
+        }
+        .tt{
+            padding: 10px 10px;
+            border: 1px solid;
+            text-align: center;
+        }
+        .in:focus{
+            background-color: lightblue;
+        }
+        .sub{
+            transition: 1s;
+            border: none;
+        }
+        .sub:hover{
+                background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <th class="tt">
+                    <label for="">Full Name :-</label>
+                </th>
+                <td class="tt">
+                    <input class="in" type="Name" placeholder="Enter Your Full Name">
+                </td>
+            </tr>
+            <tr>
+                <th class="tt">
+                    <label class="in" for="">Email :-</label>
+                </th>
+                <td class="tt">
+                    <input class="in" type="email" name="Email" id="Email" placeholder="Enter Your Email">
+                </td>
+            </tr>
+            <tr>
+                <th class="tt">
+                    <label class="in" for="">Message :-</label>
+                </th>
+                <td class="tt">
+                    <textarea class="in" name="Message" id="Message" placeholder="Message...."></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="tt" colspan="2">
+                   <input class="sub" type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

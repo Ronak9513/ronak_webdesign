@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* for use time name changes for div */
+        .main10{
+            height: 400px;
+            width: 100%;
+            position: relative;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .main11 {
+            position: absolute;
+            height: 400px;
+            width: 50%;
+            border: 2px solid;
+            overflow: hidden;
+            background: url(https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bot_1.jpg);
+        }
+
+        .right0 {
+            height: 400px;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+            transform: translate(100%, -100%);
+            transition: .6s;
+        }
+
+        .main11:hover .right0 {
+            transform: translate(0%, 0%);
+
+        }
+
+        .left0{
+            height: 400px;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+            transform: translate(-100%, 0%);
+            transition: .6s;
+        }
+
+        .main11:hover .left0 {
+            transform: translate(0%, -100%);
+        }
+
+        .main12 {
+            position: absolute;
+            transform: translate(760px, 0);
+            height: 400px;
+            width: 50%;
+            border: 2px solid;
+            overflow: hidden;
+            background: url(https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bot_2.jpg);
+        }
+
+        .right01 {
+            height: 400px;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+            transform: translate(100%, -100%);
+            transition: .6s;
+        }
+
+        .main12:hover .right01 {
+            transform: translate(0%, 0%);
+
+        }
+
+        .left01 {
+            height: 400px;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+            transform: translate(-100%, 0%);
+            transition: .6s;
+        }
+
+        .main12:hover .left01 {
+            transform: translate(0%, -100%);
+        }
+        .main13{
+            position: absolute;
+            font-size: 4em;
+            color: white;
+            transform: translate(190px, 100px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main10">
+        <div class="main11">
+            <p class="main13">Flat <b style="color: aqua;">50%</b> offer</p>
+            <div class="right0"></div>
+            <div class="left0"></div>
+        </div>
+        <div class="main12">
+            <p>Flat <b style="color: aqua;">50%</b> offer</p>
+            <div class="right01"></div>
+            <div class="left01"></div>
+        </div>
+    </div>
+</body>
+
+</html>
